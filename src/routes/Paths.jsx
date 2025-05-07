@@ -4,11 +4,10 @@ import Home from "../pages/Home";
 const Paths = () => {
     return ( 
         <>
-            <BrowserRouter basename="/react-aula6">
+            <BrowserRouter>
                 <Routes>
                     <Route path="/" element={<Home />} />
                 </Routes>
-                    
             </BrowserRouter>
         </>
      );
